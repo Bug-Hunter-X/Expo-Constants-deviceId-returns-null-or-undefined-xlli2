@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Constants.deviceId` to uniquely identify a device, but the device does not have a unique identifier available.  This might happen on emulators, or devices that haven't properly configured their identifiers.  The app might crash or behave unexpectedly due to an invalid or missing device ID.
